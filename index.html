@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+	<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto">
+<style>
+.Europe{font-family: 'Roboto', Serif;
+text-shadow: 2px 2px 2px #aaa;}
+.body {
+    background-color: lightblue;
+}
+</style>
+<head>
+  <meta charset="utf-8">
+  <title>Londons International Visitors by Air</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <meta name="description" content="Londons International Visitors by Ai">
+  <meta name="Jamie O'Donnell" content="SitePoint">
+
+<center>
+</head>
+<body>
+<script src="jquery-1.12.3.min.js"></script>
+<div>
+<br><br>
+</div>
+<div id="infoToggler"><img src="images/Working_Optimised.gif" width="1560px" height="938px"/>
+<img src="images/Working_Optimised_EU.gif" width="1560px" height="938px" style="display:none"/>
+
+</div>
+<div class="Europe">
+<font size="5">
+<br><br>
+Click Image to switch to Europe View
+</center>
+</div>
+
+<script>
+$("#infoToggler").click(function() {
+    $(this).find('img').toggle();
+});
+</script>
+
+</body>
+</html>
+
